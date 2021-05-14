@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "孩子点滴",
+  "navigationBarTextStyle":"white",
+  "navigationBarBackgroundColor":"#8fd3fc",
+  "usingComponents": {
+    "myswiper":"/components/my-swiper/my-swiper",
+    "title":"/components/my-title/my-title",
+    "model": "/components/my-model/my-model",
+    "l-tabs":"/miniprogram_npm/lin-ui/tabs/index",
+    "l-icon":"/miniprogram_npm/lin-ui/icon/index",
+    "l-calendar":"/miniprogram_npm/lin-ui/calendar/index",
+    "l-tabpanel":"/miniprogram_npm/lin-ui/tabpanel/index"
+  }
+}

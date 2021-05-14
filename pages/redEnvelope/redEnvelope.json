@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "在线红包｜领会员",
+  "usingComponents": {
+    "select": "/components/my-selected/index"
+  }
+}

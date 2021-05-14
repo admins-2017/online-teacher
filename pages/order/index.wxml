@@ -1,0 +1,14 @@
+<!--pages/order/index.wxml-->
+<view class="main">
+	<l-tabs bind:linchange="changeTabs" active-key="0" animated="{{true}}" animated-for-line="{{true}}" active-color="#eb685a" l-line-class="my-line-class" l-tabpanel-class="my-tabpanel-class" l-class-tabs="my-header-class">
+		<l-tabpanel tab="全部" key="0" slot="0">
+			<card order="{{allOrder}}"/>
+		</l-tabpanel>
+		<l-tabpanel tab="已支付" key="1" slot="1">
+			<card order="{{completedOrder}}"/>
+		</l-tabpanel>
+		<l-tabpanel tab="未支付" key="2" slot="2">
+			<card order="{{undoneOrder}}" />
+		</l-tabpanel>
+	</l-tabs>
+</view>

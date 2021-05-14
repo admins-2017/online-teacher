@@ -1,0 +1,4 @@
+<!--我收藏的公开课-->
+<view class="main">
+  <model courses="{{courseList}}"/>
+</view>

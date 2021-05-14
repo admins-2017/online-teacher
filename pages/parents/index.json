@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "家长必读",
+  "usingComponents": {
+    "l-icon":"/miniprogram_npm/lin-ui/icon/index",
+    "l-tabs":"/miniprogram_npm/lin-ui/tabs/index",
+    "l-tabpanel":"/miniprogram_npm/lin-ui/tabpanel/index"
+  }
+}

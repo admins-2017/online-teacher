@@ -1,0 +1,170 @@
+page > view{
+  /* 设置高度 空出来底部tar高度 */
+  height:calc( 100vh - 100rpx);
+  /* 设置滚动 */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.child-top {
+  background-image: url("http://kangdongwei.cn/childTop7.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 230rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.child-top .title{
+  display: flex;
+  width: 90%;
+  height: 150rpx;
+  background-color: white;
+  justify-content: center;
+  border-radius: 30rpx;
+  position: absolute;
+  bottom: -75rpx;
+}
+
+.child-top .title .title-tor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  
+}
+
+.child-top .title .title-tor .title-image{
+  width: 40%;
+  height: 45%;
+  /* background-color: #eb6356; */
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-top .title .title-tor .title-name{
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+
+.child-top .title .title-tor .title-image image{
+  width: 70%;
+  height: 70%;
+}
+
+.child-top .title .tor-0 .title-image{
+  background-color: #eb6356;
+}
+
+.child-top .title .tor-1 .title-image{
+  background-color: #f4ae52;
+}
+.child-top .title .tor-2 .title-image{
+  background-color: #6faaf3;
+}
+.child-top .title .tor-3 .title-image{
+  background-color: #71cb98;
+}
+
+/* !important */
+
+
+.child-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100rpx;
+  margin-bottom: 20rpx;
+}
+
+.child-footer .footer{
+  width: 90%;
+  background-color: white;
+  box-shadow: 0rpx 0rpx 10rpx rgb(172, 167, 167);
+  border-radius: 20rpx;
+}
+
+.child-footer .footer .fot-detail{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25rpx 30rpx;
+  border-bottom: 1rpx solid #ececec;
+  align-items: center;
+}
+
+.child-footer .footer .fot-detail .icon-name{
+  display: flex;
+  align-items: center;
+}
+
+.child-footer .footer .fot-detail .detail-name{
+  font-size: 26rpx;
+}
+
+.child-footer .footer .fot-detail .detail-icon{
+  margin-right: 16rpx;
+}
+
+.child-footer .footer .fot-detail:nth-of-type(1){
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+}
+
+.child-footer .footer .fot-detail:nth-last-of-type(1){
+  border-radius: 0rpx 0rpx 20rpx 20rpx;
+}
+
+/* 
+ */
+
+ .child-system {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15rpx;
+  margin-bottom: 10rpx;
+}
+
+.child-system .system{
+  width: 90%;
+  background-color: white;
+  box-shadow: 0rpx 0rpx 10rpx rgb(172, 167, 167);
+  border-radius: 20rpx;
+}
+
+.child-system .system .system-detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25rpx 30rpx;
+  border-bottom: 1rpx solid #ececec;
+  align-items: center;
+}
+
+.child-system .system .system-detail .system-icon{
+  display: flex;
+  align-items: center;
+}
+
+.child-system .system .system-detail .system-name{
+  font-size: 26rpx;
+}
+
+.child-system .system .system-detail .detail-icon{
+  margin-right: 16rpx;
+}
+
+.child-system .system .system-detail:nth-of-type(1){
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+}
+
+.child-system .system .system-detail:nth-last-of-type(1){
+  border-radius: 0rpx 0rpx 20rpx 20rpx;
+}

@@ -1,0 +1,48 @@
+<!--收货地址-->
+<view class="main">
+	<view class="card" wx:for="{{addressList}}" wx:key="index">
+		<view class="top">
+      <view class="content">
+        <view class="title">
+          <view class="name">{{item.name}}</view>
+          <view class="tel">{{item.tel}}</view>
+        </view>
+        <view class="address">
+          <view class="default" wx:if="{{item.default != 0}}">默认</view>
+          <view class="tag" wx:if="{{item.tag != ''}}">{{item.tag}}</view>
+          <view class="detail">
+            {{item.detail}}
+          </view>
+        </view>
+      </view>
+      <button class="modify">
+					<l-icon name="edit"></l-icon>
+      </button>
+		</view>
+		<view class="bottom">
+			<view class="default-address" wx:if="{{item.default != 0}}"> 
+				<button class="default-icon" open-type="contact">
+					<l-icon name="success" color="#fff" size="30"></l-icon>
+				</button>
+				<view class="text">
+					默认地址
+				</view>
+			</view>
+      <view class="address" wx:else > 
+				<button class="default-icon" open-type="contact">
+					<l-icon name="tees" color="#fff" size="30"></l-icon>
+				</button>
+				<view class="text">
+					默认地址
+				</view>
+			</view>
+
+			<button class="button" open-type="contact">
+        删除
+      </button>
+		</view>
+	</view>
+  <button class="add" open-type="contact">
+    + 添加收货地址
+  </button>
+</view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "学习中心",
+  "usingComponents": {
+    "myswiper":"/components/my-swiper/my-swiper",
+    "title":"/components/my-title/my-title",
+    "model": "/components/my-model/my-model",
+    "l-tabs":"/miniprogram_npm/lin-ui/tabs/index",
+    "l-tabpanel":"/miniprogram_npm/lin-ui/tabpanel/index"
+  }
+}

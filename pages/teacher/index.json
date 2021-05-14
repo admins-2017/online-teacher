@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "教师风采",
+  "usingComponents": {
+    "combined": "/miniprogram_npm/lin-ui/combined-tabs/index",
+    "tabpanel": "/miniprogram_npm/lin-ui/tabpanel/index",
+    "teacher": "/components/my-teacher/index"
+    
+  }
+}

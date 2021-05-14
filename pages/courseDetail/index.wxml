@@ -1,0 +1,70 @@
+	<view class="detail-header">
+		<view class="header-top">
+			<image class="top-image" src="../../images/index/course1.png"></image>
+		</view>
+		<view class="header-content">
+			<view class="content-title">
+				<view class="title-text">
+					<view class="title-name">咨</view>
+					<view class="title-detail">如何不吼不叫搞定孩子作业拖拉</view>
+				</view>
+				<view class="title-button">
+					<button class="share" open-type="share">
+						<l-icon name="share" class="share-icon" color="#FFF" size="35" />
+					</button>
+				</view>
+			</view>
+			<view class="content-num">
+				已有
+				<view class="num">
+					204
+				</view>
+				人观看
+			</view>
+		</view>
+	</view>
+	<view class="detail-content">
+		<l-tabs bind:linchange="changeTabs" animated animated-for-line active-color="#eb685a">
+			<l-tabpanel tab="详情" key="1" slot="1">
+				<view class="content">
+					<image src="http://kangdongwei.cn/backLearn2.png" class="image" 
+          style=" width: 100%; height: 2000px"></image>
+				</view>
+			</l-tabpanel>
+			<l-tabpanel tab="目录" key="2" slot="2">
+				<view class="directory-content" wx:for="{{directory}}" wx:key="index">
+					<view class="class-number">
+						第{{item.number}}节
+					</view>
+					<view class="class-title">
+						<view class="title-detail">
+							<view class="title">
+								{{item.title}}
+							</view>
+							<view class="date" wx:if="{{item.date != ''}}">
+								{{item.date}}
+							</view>
+						</view>
+						<view class="class-status">
+							{{item.status}}
+						</view>
+					</view>
+				</view>
+			</l-tabpanel>
+		</l-tabs>
+</view>
+<view class="detail-footer">
+	<view class="footer-like">
+		<view class="like-button">
+			<button class="button" open-type="share">
+				<l-icon name="like" class="button-icon" color="#b9b5b5" size="40" />
+			</button>
+		</view>
+		<view class="like-text">
+			{{num}}人想学
+		</view>
+	</view>
+	<view class="footer-button">
+		<button class="button" open-type="share">我要免单</button>
+	</view>
+</view>

@@ -1,0 +1,22 @@
+<!--老师团队-->
+<combined bind:linchange="change" l-left-header-class="my-left-header-class" l-line-class="my-line-class" l-content-class="my-content-class" my-top-class="my-top-class" my-left-class="my-left-class" my-left-tabsscroll="left-tabsscroll" l-left-items="left-items" my-tabpanel-view="tabpanel-view" my-tabpanel-swiper="tabpanel-swiper" my-tabpanel-swiper-item="tabpanel-swiper-item" active-color="#df6666">
+	<tabpanel tab="语文" key="0" sub-tab="小学" sub-key="0" slot="0" l-my-tabpanel-content="my-tabpanel-content">
+		<teacher teacherList="{{elementarySchoolChinese}}" />
+	</tabpanel>
+	<tabpanel tab="数学" key="1" sub-tab="小学" sub-key="1" slot="1" l-my-tabpanel-content="my-tabpanel-content">
+		<teacher teacherList="{{elementarySchoolMathematics}}" />
+	</tabpanel>
+	<tabpanel tab="英语" key="2" sub-tab="小学" sub-key="2" slot="2" l-my-tabpanel-content="my-tabpanel-content">
+		<teacher teacherList="{{elementarySchoolEnglish}}" />
+	</tabpanel>
+	<tabpanel tab="语文" key="3" sub-tab="初中" sub-key="3" slot="3" l-my-tabpanel-content="my-tabpanel-content">
+		<teacher teacherList="{{middleSchoolChinese}}" />
+	</tabpanel>
+	<tabpanel tab="数学" key="4" sub-tab="初中" sub-key="4" slot="4" l-my-tabpanel-content="my-tabpanel-content">
+		<teacher teacherList="{{middleSchoolMathematics}}" />
+	</tabpanel>
+	<tabpanel tab="英语" key="5" sub-tab="初中" sub-key="5" slot="5"
+	l-my-tabpanel-content="my-tabpanel-content">
+		<teacher teacherList="{{middleSchoolEnglish}}" />
+	</tabpanel>
+</combined>

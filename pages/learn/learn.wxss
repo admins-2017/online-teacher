@@ -1,0 +1,14 @@
+page > view{
+  /* 设置高度 空出来底部tar高度 */
+  height:calc( 100vh - 100rpx);
+  /* 设置滚动 */
+  overflow-y: auto;
+}
+
+.l-tabs .l-tabsscroll .l-tabs-header .l-tabs-active .l-tab-line{
+  background-color: red !important;
+}
+
+.l-tabs {
+  height: auto !important;
+}

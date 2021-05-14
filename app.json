@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/learn/learn",
+    "pages/child/child",
+    "pages/gold/gold",
+    "pages/times/times",
+    "pages/redEnvelope/redEnvelope",
+    "pages/activity/activity",
+    "pages/courseDetail/index",
+    "pages/parents/index",
+    "pages/receiptAddress/index",
+    "pages/projectAddress/index",
+    "pages/about/index",
+    "pages/teacher/index",
+    "pages/order/index",
+    "pages/collect/index",
+    "pages/myOpenClass/index",
+    "pages/opinion/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智慧课程",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000",
+    "selectedColor": "#000",
+    "backgroundColor": "red",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/learn/learn",
+      "text": "学习中心"
+    }, {
+      "pagePath": "pages/child/child",
+      "text": "孩子点滴"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents":{
+    "l-tab-bar":"/miniprogram_npm/lin-ui/tab-bar/index"
+  }
+}

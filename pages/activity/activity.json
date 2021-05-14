@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "活动中心",
+  "usingComponents": {
+    "l-tabs":"/miniprogram_npm/lin-ui/tabs/index",
+    "l-tabpanel":"/miniprogram_npm/lin-ui/tabpanel/index"
+  }
+}

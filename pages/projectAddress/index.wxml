@@ -1,0 +1,49 @@
+<!--项目地址-->
+<view class="main">
+	<view class="top">
+		<view class="top-img">
+			<image src="http://kangdongwei.cn/qileLogo2.png" class="image"></image>
+		</view>
+		<view class="start">
+			<view class="version">
+				<view class="title">version</view>
+				<view class="version-number">2.3.1</view>
+			</view>
+			<view class="download">
+				<view class="title">download</view>
+				<view class="download-number">1k</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="list">
+		<view class="content" wx:for="{{details}}" wx:key="index">
+			<view class="icon">
+				<view class="cen"></view>
+			</view>
+			<view class="detail">
+				<view class="title">{{item.title}}</view>
+				<view class="text">{{item.text}}</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="user">
+		<view class="title">
+			贡献人员
+		</view>
+		<view class="content">
+			<view class="detail" wx:for="{{users}}" wx:key="index">
+				<view class="post">
+          <view class="post-detail">
+					{{item.post}}
+          </view>
+				</view>
+				<view class="name">
+					{{item.name}}
+				</view>
+			</view>
+		</view>
+	</view>
+
+</view>

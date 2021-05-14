@@ -1,0 +1,23 @@
+<view class="main">
+	<l-tabs bind:linchange="changeTabs" class="tab" l-class-tabs="class-tabs" equal-width="{{false}}" scrollable l-class-active="class-active" l-class-inactive="class-inactive" l-my-tabs-header="my-tabs-header" active-key="{{sub}}">
+		<l-tabpanel wx:for="{{title}}" wx:key="index" tab="{{item}}" key="{{index}}" slot="{{index}}" l-my-tabpanel-content="my-tabpanel-content">
+			<view class="flex" wx:for="{{details}}" wx:key="index">
+				<navigator class="content">
+					<view class="content-img">
+						<image src="{{item.url}}" class="img"></image>
+					</view>
+					<view class="content-text">
+						<view class="title">
+							{{item.title}}
+						</view>
+						<view class="icon">
+							<l-icon name="eye" size="30" color="#6d6a6a"></l-icon>
+							<view class="text"> {{item.number}}</view>
+						</view>
+					</view>
+				</navigator>
+			</view>
+		</l-tabpanel>
+
+	</l-tabs>
+</view>

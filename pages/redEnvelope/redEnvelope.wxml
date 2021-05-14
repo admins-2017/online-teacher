@@ -1,0 +1,47 @@
+<view class="red-title">
+	<view class="title-content">
+		<image src="http://kangdongwei.cn/logo2.png" class="content-image"></image>
+		<view class="content">
+			<view>小初高</view>
+			<view>1对1在线辅导</view>
+		</view>
+	</view>
+	<view class="title-tle">
+		<view>提升热线:</view>
+		<view>0471-4903666</view>
+	</view>
+</view>
+
+<view class="red-image">
+	<image src="http://kangdongwei.cn/redTitle.png" class="image-content">
+	</image>
+	<view class="b-content">
+		预约免费领取 价值288元试听课
+	</view>
+	<view class="s-content">
+		【送】1对1学情诊断分析+个性化提升方案
+	</view>
+</view>
+
+<view class="red-form">
+	<view class="form-content">
+		<input placeholder="孩子姓名" class="form-input" />
+		<input placeholder="家长电话" class="form-input" />
+		<view class="form-flex">
+			<input placeholder="孩子姓名" class="form-input" />
+      <button class="button">获取短信验证码</button>
+		</view>
+		<view class="form-flex">
+			<select prop-array='{{selectArray}}'  text="选择孩子年级" bind:select='select' class="flex-select" />
+			<select prop-array='{{selectArray}}' text="选择辅导科目"  bind:select='select' class="flex-select"/>
+		</view>
+		<view class="form-button">
+			<button class="button">点击预约课程</button>
+		</view>
+	</view>
+</view>
+
+<view class="red-footer">
+	<view class="footer-text">如果未收到短信验证码，您还可以</view>
+	<navigator class="footer-nav">免费咨询</navigator>
+</view>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "在线课堂",
+  "usingComponents": {
+    "myswiper": "/components/my-swiper/my-swiper",
+    "model":"/components/my-model/my-model",
+    "title":"/components/my-title/my-title"
+  }
+}

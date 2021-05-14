@@ -1,0 +1,3 @@
+<view class="l-tabpanel-content l-my-tabpanel-content">
+    <slot></slot>
+</view>

@@ -1,0 +1,47 @@
+<view>
+	<view class="child-top">
+		<view class="context">
+			<view class="context-detail">
+			</view>
+		</view>
+		<view class="title">
+			<navigator class="title-tor tor-{{index}}" url="" wx:for="{{titleList}}" wx:key="index">
+				<view class="title-image">
+					<image src="{{item.url}}"></image>
+				</view>
+				<view class="title-name">
+					{{item.title}}
+				</view>
+			</navigator>
+		</view>
+	</view>
+
+
+	<view class="child-footer">
+		<view class="footer">
+			<navigator class="fot-detail" wx:for="{{footerList}}" wx:key="index" url="{{item.url}}">
+				<view class="icon-name">
+				<l-icon name="{{item.icon}}" size="24" class="detail-icon" color="{{item.colors}}"/>
+				<view class="detail-name">{{item.name}}</view>
+				</view>
+				<l-icon name="right" color="#b2b2b2" size="20" />
+			</navigator>
+		</view>
+	</view>
+
+	<view class="child-system">
+		<view class="system">
+			<navigator class="system-detail" wx:for="{{systemList}}" wx:key="index" url="{{item.url}}">
+				<view class="system-icon">
+				<l-icon name="{{item.icon}}" size="22" class="detail-icon" color="{{item.colors}}"/>
+				<view class="system-name">{{item.name}}</view>
+				</view>
+				<l-icon name="right" color="#b2b2b2" size="20" />
+			</navigator>
+		</view>
+	</view>
+
+
+	<l-tab-bar list="{{tarList}}" text-selected-color="#ff4f25" text-unselected-color="#8a8a8a" />
+
+</view>

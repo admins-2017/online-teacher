@@ -1,0 +1,21 @@
+<!--关于我们-->
+<view class="content">
+	<view class="top">
+		<image src="http://kangdongwei.cn/zhikeLogo.png" class="img"></image>
+		<view class="name">智客star</view>
+	</view>
+	<view class="list">
+		<view class="detail">
+			<view class="title">联系我们</view>
+			<view class="text">15149333955</view>
+		</view>
+		<view class="detail">
+			<view class="title">联系地址</view>
+			<view class="text">呼和浩特市汇商广场15055</view>
+		</view>
+		<button class="online" open-type="contact">在线客服</button>
+	</view>
+	<view class="test">
+		
+	</view>
+</view>

@@ -1,0 +1,34 @@
+// components/my-title/my-title.js
+Component({
+  /**
+   * 组件的属性列表
+   */
+  properties: {
+    value: {
+      type: String,
+      value:"好课推荐"
+    },
+    url:{
+      type: String,
+      value: ""
+    },
+    types:{
+      type: String,
+      value: "navigate"
+    }
+  },
+
+  /**
+   * 组件的初始数据
+   */
+  data: {
+
+  },
+
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+
+  }
+})

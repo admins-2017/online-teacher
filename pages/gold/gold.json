@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "领金币",
+  "usingComponents": {
+    "l-icon":"/miniprogram_npm/lin-ui/icon/index"
+  }
+}

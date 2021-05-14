@@ -1,0 +1,17 @@
+.title {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50rpx 24px 30rpx ;
+}
+
+.title .title-content{
+  font-size: 30rpx;
+}
+
+.title .title-url{
+  color: #aca9a9;
+  font-size: 26rpx;
+  text-align: center;
+}

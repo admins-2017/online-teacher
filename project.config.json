@@ -1,0 +1,176 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": false,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./"
+      }
+    ],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.14.4",
+  "appid": "wx6e2d73d74bf11f91",
+  "projectname": "online-teacher",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "learn",
+          "pathName": "pages/learn/learn",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "child",
+          "pathName": "pages/child/child",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "gold",
+          "pathName": "pages/gold/gold",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "times",
+          "pathName": "pages/times/times",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "red",
+          "pathName": "pages/redEnvelope/redEnvelope",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "activity",
+          "pathName": "pages/activity/activity",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "courseDetail",
+          "pathName": "pages/courseDetail/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "parents",
+          "pathName": "pages/parents/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "about",
+          "pathName": "pages/about/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "receipt",
+          "pathName": "pages/receiptAddress/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "project",
+          "pathName": "pages/projectAddress/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "teacher",
+          "pathName": "pages/teacher/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "opinion",
+          "pathName": "pages/opinion/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "order",
+          "pathName": "pages/order/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

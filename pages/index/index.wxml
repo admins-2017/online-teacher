@@ -1,0 +1,33 @@
+<view>
+	<myswiper imgList="{{topImgList}}" />
+	<view class="navigation">
+		<view class="navigation-content">
+			<navigator class="content-detail" wx:for="{{navigationDetails}}" wx:key="index" url="{{item.url}}" open-type="{{item.type}}">
+				<image src="{{item.img}}">
+				</image>
+				<view>
+					{{item.description}}
+				</view>
+			</navigator>
+		</view>
+	</view>
+	<title value="活动专区" url="../activity/activity"/>
+	<navigator class="activity" url="../activity/activity">
+		<image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbpic.588ku.com%2Fback_pic%2F04%2F30%2F04%2F645840320236ac4.JPG&refer=http%3A%2F%2Fbpic.588ku.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614413887&t=b4ff45da5b03bfd5a0e466c9cccac2f9"></image>
+	</navigator>
+
+	<title value="好课推荐" url="../learn/learn?sub=0" types="reLaunch"/>
+
+	<model courses="{{courseList}}" />
+
+	<title value="家长必读" url="../parents/index" />
+
+	<view class="parents">
+		<navigator class="parent" wx:for="{{parents}}" wx:key="index" url="{{item.url}}">
+			<image src="{{item.imgUrl}}"></image>
+			<view>{{item.title}}</view>
+		</navigator>
+	</view>
+
+	<l-tab-bar list="{{tarList}}" text-selected-color="#ff4f25" text-unselected-color="#8a8a8a" />
+</view>

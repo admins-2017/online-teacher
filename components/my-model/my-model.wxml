@@ -1,0 +1,23 @@
+<view class="courses" wx:for="{{courses}}" wx:key="index">
+	<view class="courses-left">
+		<image class="left-image" src="{{item.url}}">
+		</image>
+		<view class="left-count">
+			已有 <text>{{item.count}}</text> 人观看
+		</view>
+	</view>
+	<view class="courses-right">
+		<view class="right-content">
+			<view class="right-title">
+				<view>{{item.title}}</view>
+				{{item.context}}
+			</view>
+			<view class="right-author">
+				{{item.author}}
+			</view>
+		</view>
+		<navigator class="right-buttom" url="{{item.viewModel}}">
+			{{item.buttomText}}
+		</navigator>
+	</view>
+</view>

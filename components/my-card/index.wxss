@@ -1,0 +1,127 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+  height: 350rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30rpx;
+  margin-top: 20rpx;
+}
+
+.card:last-of-type{
+  margin-bottom: 20rpx;
+}
+
+.card .card-top{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card .card-top .card-text {
+  color: #ea5533;
+  font-size: 28rpx;
+  padding-right: 20rpx;
+}
+
+.card .card-content{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+
+.card .card-content .card-img {
+  flex: 2;
+  height: 100%;
+}
+
+.card .card-content .card-img image{
+  width: 80%;
+  height: 80%;
+}
+
+.card .card-content .card-detail {
+  flex: 3;
+  height: 100%;
+}
+
+.card .card-content .card-price {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card .card-bottom{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rpx 20rpx;
+}
+
+.card .card-bottom .card-more {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  color: #a6a6a6;
+  background-color: white;
+  font-size: 24rpx !important;
+  margin-left: 20rpx;
+}
+
+.card .card-bottom .card-more::after{
+  border: 0rpx;
+}
+
+.card .card-bottom .card-detail {
+  display: flex;
+  justify-content: center;
+}
+
+.card .card-bottom .card-detail .card-return{
+  margin: 0;
+  padding: 0rpx 20rpx;
+  display: flex;
+  align-items: center;
+  color: #a6a6a6;
+  background-color: white;
+  font-size: 24rpx !important;
+  border-radius: 50rpx;
+  border: 1rpx solid #e6e6e6;
+}
+
+.card .card-bottom .card-detail .card-return::after{
+  border: 0rpx;
+}
+
+.card .card-bottom .card-detail .card-invoice{
+  margin: 0;
+  padding: 0rpx 20rpx;
+  display: flex;
+  align-items: center;
+  color: #a6a6a6;
+  background-color: white;
+  font-size: 24rpx !important;
+  margin-left: 10rpx;
+  border-radius: 50rpx;
+  border: 1rpx solid #e6e6e6;
+}
+
+.card .card-bottom .card-detail .card-invoice::after{
+  border: 0rpx;
+
+}

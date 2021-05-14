@@ -1,0 +1,160 @@
+page{
+  background-color: white;
+}
+
+.red-title{
+  padding: 10rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 120rpx; 
+}
+
+.red-title .title-content{
+  font-size: 28rpx;
+  color: #8c8c8c;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 100%;
+}
+
+.red-title .title-content .content-image {
+  height: 100%;
+  width: 40%;
+  padding: 0rpx 20rpx;
+}
+
+.red-title .title-content .content {
+  width: 60%;
+  padding: 0rpx 20rpx;
+  border-left: 3rpx solid #8c8c8c;
+}
+
+.red-title .title-tle{
+  color: #eb6355;
+  font-size: 28rpx;
+}
+
+.red-image {
+  width: 100%;
+  height: 450rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.red-image .image-content{
+  width: 100%;
+  height: 100%;
+}
+
+.red-image .b-content{
+  color: #eb6254;
+  font-size: 36rpx;
+  display: flex;
+  justify-content: center;
+  padding: 20rpx 0rpx 10rpx;
+}
+
+.red-image .s-content{
+  color: #6b6b6b;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: center;
+  padding: 0rpx 0rpx 20rpx;
+}
+
+.red-form {
+  width: 100%;
+  height: 500rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.red-form .form-content {
+  width: 90%;
+  height: 100%;
+}
+
+.red-form .form-content .form-input{
+  height: 17%;
+  padding: 10rpx 30rpx;
+  border: 1rpx solid #d7d7d7;
+  margin: 20rpx 0rpx;
+  border-radius: 15rpx;
+  box-shadow: 5rpx -5rpx 10rpx #d7d7d7;
+  color: #d7d7d7;
+}
+
+.red-form .form-content .form-flex{
+  height: 17%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.red-form .form-content .form-flex .form-input {
+  width: 48%;
+  height: 100%;
+}
+
+.red-form .form-content .form-flex .button {
+  width: 48%;
+  height: 100%;
+  background-color: #eb6355;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rpx;
+  font-size: 28rpx;
+  margin: 0rpx;
+  border-radius: 15rpx;
+  font-size: 28rpx;
+}
+
+.red-form .form-content .form-flex .flex-select{
+  width: 48%;
+  height: 100%;
+  border-radius: 15rpx;
+  box-shadow: 5rpx -5rpx 10rpx #d7d7d7;
+}
+
+.red-form .form-content .form-button{
+  height: 17%;
+  color: white;
+  border-radius: 15rpx;
+  margin-top: 30rpx;
+}
+
+.red-form .form-content .form-button .button{
+  width: 100%;
+  height: 100%;
+  background-color: #eb6355;
+  color: white;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-footer {
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx 0rpx;
+}
+
+.red-footer .footer-text {
+  font-size: 26rpx;
+  color: #777676;
+}
+
+.red-footer .footer-nav {
+  font-size: 28rpx;
+  color: #eb6355;
+  margin-left: 10rpx;
+}

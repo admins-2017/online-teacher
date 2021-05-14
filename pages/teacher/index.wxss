@@ -1,0 +1,64 @@
+page {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.my-left-header-class {
+  width: 100% !important;
+}
+
+.my-line-class {
+  width: 30% !important;
+}
+
+.my-tabpanel-content{
+  height: calc(100vh - 60rpx) !important;
+}
+
+.tabpanel-swiper-item{
+  width: 100%;
+  height: 100%;
+  /* overflow-y: auto !important; */
+}
+
+.my-content-class {
+  width: 100%;
+  height: 100% !important;
+  /* overflow-y: auto; */
+}
+
+.my-top-class {}
+
+.my-left-class {
+  /* overflow-y: auto !important; */
+}
+
+.left-tabsscroll {
+  width: 100rpx !important;
+}
+
+.left-items {
+  width: 100rpx !important;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80rpx;
+  position: relative;
+
+}
+
+.tabpanel-view{
+  width: 100%;
+  height: 100%;
+  /* overflow-y: auto; */
+}
+
+.tabpanel-swiper{
+  width: 100%;
+  height: 100%;
+  /* overflow-y: auto; */
+}
+

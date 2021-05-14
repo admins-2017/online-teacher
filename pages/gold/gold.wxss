@@ -1,0 +1,119 @@
+page {
+  background-size: 100% 100%;
+  background-image: url(http://kangdongwei.cn/goldBackImage1.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.button{
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button .button-content {
+  width: 80rpx;
+  height: 120rpx;
+  background-color: #e86d9e;
+  border-radius: 0px 0px 60px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button .button-content .button-title{
+  font-size: 26rpx;
+  color: white;
+  box-sizing: border-box;
+  width: 70%;
+}
+
+.button .button-content .button-icon{
+  margin-top: 5rpx;
+}
+
+.content {
+  width: 90%;
+  height: 600rpx;
+  background-color: #e83f40;
+  position: relative;
+  top: 160rpx;
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .content-details {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0rpx;
+}
+
+.content .content-details .detail{
+  width: 100%;
+  height: 24%;
+  background-image: url(http://kangdongwei.cn/goldBackImage3.png);
+  background-size: 100% 100%;
+  padding: 20rpx 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .content-details .detail .detail-title{
+  width: 70%;
+}
+
+.content .content-details .detail .detail-title .title{
+  font-weight: 400;
+  height: 100%;
+}
+
+.content .content-details .detail .detail-title .title-content{
+  font-size: 26rpx;
+  font-weight: 200;
+  margin-top: 10rpx;
+}
+
+.content .content-details .detail .detail-icon{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4rpx solid red;
+  border-radius: 100rpx;
+}
+
+.content .content-details .detail .detail-icon image{
+  width: 50%;
+  height: 50%;
+}
+
+.content .content-details .invite{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 20rpx; */
+}
+
+.content .content-details .invite .invite-content{
+  width: 80%;
+  background-color: #f6ca32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rpx;
+  padding: 15rpx;
+} 

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "收藏的公开课",
+  "usingComponents": {
+    "model": "/components/my-model/my-model"
+  }
+}

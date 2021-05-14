@@ -1,0 +1,27 @@
+<!--components/my-card/index.wxml-->
+<view class="main">
+	<view class="card" wx:for="{{order}}" wx:key="index">
+		<view class="card-top">
+			<view class="card-text" wx:if="{{item.status == 1}}">交易完成</view>
+			<view class="card-text" wx:else>订单过期</view>
+		</view>
+		<view class="card-content">
+			<view class="card-img">
+				<image src="{{item.url}}"></image>
+			</view>
+			<view class="card-detail">
+				{{item.detail}}
+			</view>
+			<view class="card-price">
+				${{item.price}}
+			</view>
+		</view>
+		<view class="card-bottom">
+			<button class="card-more" open-type="share">更多</button>
+			<view class="card-detail">
+				<button class="card-return" open-type="share">课程退款</button>
+				<button class="card-invoice" open-type="share">申请发票</button>
+			</view>
+		</view>
+	</view>
+</view>

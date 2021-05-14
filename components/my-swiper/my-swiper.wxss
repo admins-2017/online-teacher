@@ -1,0 +1,19 @@
+.top-swiper {
+  padding: 10rpx 0;
+  height: 280rpx;
+
+}
+.top-swiper .my-swiper {
+  height: 100%;
+}
+
+.top-swiper .my-swiper .my-swiper-item{
+display: flex;
+justify-content: center;
+}
+
+.top-swiper .my-swiper .my-swiper-item image{
+  width: 98%;
+  height: 100%; 
+  border-radius: 10rpx;
+}

@@ -1,0 +1,23 @@
+page {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-top-class{
+  border: 1rpx solid white !important;
+  font-size: 26rpx !important;
+}
+
+.my-title-class {
+  color: #858585 !important;
+}
+
+.top {
+  width: 90%;
+}
+
+.main {
+  width: 90%;
+}

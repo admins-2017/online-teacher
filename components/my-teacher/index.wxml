@@ -1,0 +1,19 @@
+<view class="main">
+	<view class="skew" wx:for="{{teacherList}}" wx:key="index">
+		<image src="{{item.url}}"></image>
+		<view class="border"></view>
+		<view class="text">
+			<view class="name">
+				{{item.name}}
+			</view>
+			<view class="detail">
+				<view class="title">
+					{{item.title}}
+				</view>
+				<view class="introduction">
+					{{item.introduction}}
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

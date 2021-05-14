@@ -1,0 +1,8 @@
+<view class="times" wx:for="{{list}}" wx:key="index">
+  <view class="title">
+    {{item.title}}
+  </view>
+  <navigator class="time-url" url="">
+    <image src="{{item.url}}"></image>
+  </navigator>
+</view>

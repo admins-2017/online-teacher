@@ -1,0 +1,26 @@
+<l-tabs bind:linchange="changeTabs" animated animated-for-line active-color="#eb685a" l-header-class="test-class" l-active-class="active-class" l-inactive-class="active-class" l-line-class="line-class" l-header-line-class="header-line-class" l-class-tabs="class-tabs" >
+	<l-tabpanel wx:for="{{titleName}}" wx:key="index" tab="{{item}}" key="{{index}}" slot="{{index}}" >
+		<view class="content" wx:for="{{actives}}" wx:key="index">
+			<view class="detail">
+				<view class="detail-header">
+					<view class="header-title">
+						<view class="name">{{item.name}}</view>
+						<view class="date">({{item.date}})</view>
+					</view>
+					<view class="header-status">
+						{{item.status}}
+					</view>
+				</view>
+				<view class="detail-footer">
+					<image class="footer-images" src="{{item.url}}">
+					</image>
+				</view>
+				<view class="mask" wx:if="{{item.ts}}">
+					<image class="mask-image" src="http://kangdongwei.cn/backMask3.png">
+					</image>
+				</view>
+			</view>
+		</view>
+
+	</l-tabpanel>
+</l-tabs>

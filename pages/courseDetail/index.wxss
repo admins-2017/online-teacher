@@ -1,0 +1,227 @@
+/* page{
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height:calc( 100vh - 200rpx);
+} */
+
+.detail-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 500rpx;
+}
+.detail-header .header-top {
+  flex: 2;
+}
+
+.detail-header .header-top .top-image{
+  width: 100%;
+  height: 100%;
+}
+
+.detail-header .header-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx 20rpx;
+}
+
+.detail-header .header-content .content-title{
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.detail-header .header-content .content-title .title-text{
+  display: flex;
+}
+.detail-header .header-content .content-title .title-text .title-name{
+  width: 40rpx;
+  height: 40rpx;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 40rpx;
+  margin-right: 10rpx;
+  border-radius: 15rpx;
+}
+
+.detail-header .header-content .content-title .title-text .title-detail{
+  font-size: 26rpx;
+}
+
+.detail-header .header-content .content-title .title-button{
+  height: 70%;
+  width: 10%;
+}
+
+.detail-header .header-content .content-title .title-button .share{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border-radius: 50rpx;
+  background-color: #f8c633;
+}
+
+
+.detail-header .header-content .content-num{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30rpx;
+  padding-top: 10rpx;
+}
+
+.detail-header .header-content .content-num .num{
+  font-size: 30rpx;
+  font-weight: 600;
+  width: 10%;
+  text-align: center;
+}
+
+.detail-content {
+  width: 100%;
+  height: auto;
+  margin-bottom: 100rpx;
+}
+
+.detail-content .content {
+  width: 100%;
+  height: 100%;
+}
+
+.detail-content .content .images{
+  width: 100%;
+  height: 100%;
+}
+
+.detail-content .directory-content{
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  padding: 10rpx 20rpx;
+}
+
+.detail-content .directory-content .class-number{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #7e7b7b;
+  padding-top: 10rpx ;
+}
+
+.detail-content .directory-content .class-title{
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-content .directory-content .class-title .title-detail{
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-content .directory-content .class-title .title-detail .title{
+  font-size: 32rpx;
+  padding-top: 10rpx;
+}
+
+.detail-content .directory-content .class-title .title-detail .date{
+  font-size: 26rpx;
+  color: #a09d9d;
+  padding-bottom: 10rpx;
+}
+
+.detail-content .directory-content .class-title .class-status{
+  color: #90bdf5;
+  font-size: 24rpx;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-footer{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rpx 10rpx ;
+  background-color: white;
+  position: fixed;
+  bottom: 0rpx;
+}
+
+.detail-footer .footer-like{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rpx 50rpx;
+}
+
+.detail-footer .footer-like .like-button{
+  margin-right: 50rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.detail-footer .footer-like .like-button .button{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: white;
+}
+
+.detail-footer .footer-like .like-button .button::after{
+  border: 1px solid white;
+}
+
+.detail-footer .footer-like .like-button .button .button-icon{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1rpx solid white;
+}
+
+.detail-footer .footer-like .like-text{
+  width: 70rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.detail-footer .footer-button{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.detail-footer .footer-button .button{
+  width: 100%;
+  height: 100%;
+  background-color: #f9dfde;
+  color: #ee8980;
+}

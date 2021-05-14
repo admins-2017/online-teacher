@@ -1,0 +1,7 @@
+<view class="top-swiper">
+	<swiper circular previous-margin="40rpx" next-margin="40rpx" class="my-swiper">
+		<swiper-item wx:for="{{imgList}}" wx:key="index" class="my-swiper-item">
+			<image src="{{item}}"></image>
+		</swiper-item>
+	</swiper>
+</view>

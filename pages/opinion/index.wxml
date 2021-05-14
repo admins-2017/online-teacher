@@ -1,0 +1,17 @@
+<!--pages/opinion/index.wxml-->
+<view class="top">
+  <l-list title="我要反馈" icon="comment" icon-color="#353535"
+  l-class="my-top-class"/>
+</view>
+
+<view class="main">
+  <l-list title="常见问题" is-link="{{false}}" l-class="my-title-class"/>
+  <l-list title="无法绑定手机号怎么办？" />
+  <l-list title="购买了课程可以退换吗？" />
+  <l-list title="购买了课程可以开发票吗？" />
+  <l-list title="购买的课程有时间限制吗？" />
+  <l-list title="如何更改手机号，邮箱等绑定的账号？" desc="微信 QQ 邮箱" />
+  <l-list title="如何获取参加其乐活动的条件？" />
+  <l-list title="金币有什么用？" />
+  <l-list title="购买课程异常" />
+</view>
